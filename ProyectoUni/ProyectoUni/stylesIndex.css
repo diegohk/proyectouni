@@ -1,0 +1,116 @@
+*{
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  color: #fff;
+  font-size: 1.1rem;
+}
+body{
+  background: #0069d9;
+  background: url("Multimedia-[recursosGraficos]/form-background.png");
+  background-size: cover;
+}
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  
+  header nav {
+    display: none; /* Ocultar por defecto */
+  }
+  
+  @media (min-width: 768px) {
+    header nav {
+      display: block;
+      float: right;
+    }
+  }
+  
+  main {
+    padding: 20px;
+    background-color: var(--light-color);
+  }
+  
+  main form {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  main form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  main form span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  main form input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+  }
+  
+  main form input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  main form input[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  main form input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  main form div a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  @media (max-width: 767px) {
+    /* Ajustes para pantallas pequeñas */
+    header h2 {
+      font-size: 20px;
+    }
+  
+    main form {
+      max-width: 300px;
+    }
+  }
+  input{
+    color: black;
+  }
+
+  .button-sub{
+  border: solid 1.5px rgb(0, 0, 0);
+  background: #d0e3f8b0;
+  margin-bottom: 3%;
+}
+.form{
+  width: 60vw;
+  margin: auto;
+  background: rgb(223, 223, 223) url("Multimedia-[recursosGraficos]/form.jpg");
+  background-size: cover;
+  border: solid 1.5px rgb(0, 0, 0);
+}

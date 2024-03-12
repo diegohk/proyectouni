@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-style: none;
+    font-family: 'Aldrich', sans-serif;
+}
+/*********************************************
+            ----[HEADER]----
+*********************************************/
+.body{
+    background: #a2b9d8;
+    background: url("../Multimedia-[recursosGraficos]/candidatos.jpg") fixed;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    padding: 0%;
+}
+.header__div-h2{
+    margin: 0 0 0  0;
+    width: 100%;
+    background:rgb(192, 189, 236);
+    display: flex;
+    justify-content: center;
+}
+.header__h2{
+    font-size: 5rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+}
+.header__div-perfil{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: .75% .7% .4% 0;
+}
+.header__div-h4{
+    margin: 0 1% 0 0;
+    font-size: 4rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: aliceblue;
+}
+.header__h3{
+    margin: 0 1% 0 0;
+    font-size: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+}
+.header__img{
+  margin: .8% 0 0 0;
+  width: 10%;
+  height: 40%;
+}
+.style__hr{
+  border: none;
+  height: 1px;
+  background: #ccc;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+.style__hr::before {
+    display: block;
+    content: "";
+    height: 1px;
+    background: linear-gradient(to right, transparent, #ccc, transparent);
+  }
+/*********************************************
+            ----[MAIN]----
+*********************************************/
+
+.header__img{
+    border-radius: 8px;
+    border: .5% .5% 1rem black;
+  }
+  .section-alcalde{
+    width: 90%;
+    overflow-x: hidden;
+  }
+  .alcalde-section__div{
+    width: 90%;
+    margin: 15px 5%;
+  }
+  .alcalde-section__img{
+    width: 10%;
+    height: 40%;
+    }
+  
+.alcalde-section__div{
+    display: flex;
+    flex-direction: row;
+}
+  .alcalde-section__div-indiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px; /* Ajusta el ancho según tu diseño */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alcalde-section__img {
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .alcalde-section__h4-n {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .alcalde-section__input {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .alcalde-section__input:hover {
+    background-color: #ddd;
+  }
+  
+  @media (max-width: 767px) {
+    /* Ajustes para pantallas pequeñas */
+    .alcalde-section__div-indiv {
+      width: 100%;
+    }
+  }
+  .alcalde-section__div-indiv {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px; /* Ajusta el ancho según tu diseño */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alcalde-section__img {
+    grid-row: 1/2;
+    width: 150px; /* Ajusta el tamaño de la imagen */
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .alcalde-section__h4-n {
+    grid-row: 2/3;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .alcalde-section__input {
+    grid-row: 3/4;
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .alcalde-section__input:hover {
+    background-color: #ddd;
+  }
+  
+  @media (max-width: 767px) {
+    /* Ajustes para pantallas pequeñas */
+    .alcalde-section__div-indiv {
+      width: 100%;
+    }
+  }
+  .main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 98vw !important;
+    overflow-x: hidden;
+  }
+  .alcalde-section__div-indiv{
+    background: #a2b9d85d;
+  }
+  .returnA {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    padding: 12px 24px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Para que ocupe solo el espacio necesario */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el texto */
+    font-size: 16px; /* Tamaño de fuente */
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    text-decoration: none; /* Quitar subrayado */
+    margin-bottom: 20px; /* Margen en la parte inferior */
+    margin-left:30px;
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+.returnA:hover {
+    background-color: #0056b3; /* Cambiar color de fondo al pasar el mouse */
+}
+.header__h3-mar{
+  margin-left: 20px;
+}
